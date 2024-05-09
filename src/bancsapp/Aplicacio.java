@@ -31,7 +31,7 @@ public class Aplicacio {
         } else {
             System.out.println("El saldo final del compte 1 és: " + compte.consultarSaldo());
             System.out.println("El saldo final del compte 2 és: " + compte2.consultarSaldo());
-        }
-        System.out.println(".................................................");
     }
+        System.out.println(".................................................");
+   }
 }
