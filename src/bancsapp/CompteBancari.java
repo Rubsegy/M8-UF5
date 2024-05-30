@@ -4,7 +4,7 @@ public class CompteBancari {
 
     private String nom;
     private int numSecret;
-    private static float saldoInicial = (float) 0;
+    private static float saldoInicial = (float) 100;
     private float saldo;
 
     public CompteBancari(String nom, int numSecret) {
@@ -54,5 +54,13 @@ public class CompteBancari {
             resultat = true;
         }
         return resultat;
+    }
+    public int saludo(){
+        System.out.println("Hola");
+        return 0;
+    }
+    public int saludo2(){
+        System.out.println("Bon Dia");
+        return 0;
     }
 }
